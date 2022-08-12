@@ -12,6 +12,7 @@ class Product:
         self.id = id
         self.nome_do_produto = nome_do_produto
         self.nome_da_empresa = nome_da_empresa
+        # a função str converte em string a data_de_fabricacao
         self.data_de_fabricacao = str(data_de_fabricacao)
         self.data_de_validade = str(data_de_validade)
         self.numero_de_serie = numero_de_serie
@@ -25,3 +26,17 @@ class Product:
             f" até {self.data_de_validade}"
             f" precisa ser armazenado {self.instrucoes_de_armazenamento}."
         )
+
+
+# blender = Product(
+#     1,
+#     "Blender",
+#     "Sucesso Magazine",
+#     "2022-1-1",
+#     "2024-2-1",
+#     "0121545454",
+#     "Colocar lugar plano",
+# )
+
+
+# print(blender)
