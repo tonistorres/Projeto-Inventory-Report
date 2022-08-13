@@ -17,6 +17,7 @@ class Product:
         self.data_de_validade = str(data_de_validade)
         self.numero_de_serie = numero_de_serie
         self.instrucoes_de_armazenamento = instrucoes_de_armazenamento
+        # retorna a representação do objeto em formato de string
 
     def __repr__(self):
         return (
@@ -28,15 +29,19 @@ class Product:
         )
 
 
-# blender = Product(
-#     1,
-#     "Blender",
-#     "Sucesso Magazine",
-#     "2022-1-1",
-#     "2024-2-1",
-#     "0121545454",
-#     "Colocar lugar plano",
+# agua_sanitaria = Product(
+#     100,
+#     "Agua Sanitaria 1000ml",
+#     "Almoxarifado Central",
+#     "01/01/2022",
+#     "30/01/2025",
+#     "Serie1234Xlblau",
+#     "armazene ali",
 # )
 
-
-# print(blender)
+# resul_metod_repr = agua_sanitaria.__repr__()
+# print(resul_metod_repr)
+# print("---Testando o tipo----")
+# print(type(resul_metod_repr))
+# print(type(agua_sanitaria))
+# print(agua_sanitaria)
