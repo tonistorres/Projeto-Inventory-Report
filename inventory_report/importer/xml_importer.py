@@ -1,5 +1,5 @@
 # importando a tipagem List e Dict
-from typing import List, Dict
+from typing import List
 # importando biblioteca nativa xml
 from xml.etree import ElementTree as ET
 # importando a classe Importer que é uma calsse abstrata
