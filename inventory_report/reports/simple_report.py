@@ -4,7 +4,7 @@ class SimpleReport:
     # método de classe generator estatico que recebe como parametro products
     # que é um array de dicionarios com dados referente a empresa
     def generate(products):
-        # data de fabricação mais antiga, ou seja, menor valor quando comparda 
+        # data de fabricação mais antiga, ou seja, menor valor quando comparda
         # com data atual
         #       |-------------|-------------|
         # 10-08-2022     14-08-2022
