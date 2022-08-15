@@ -1,5 +1,6 @@
 # importa a classe base abstrata
 from abc import ABC, abstractmethod
+
 # importando o metódo List nativo do python
 from typing import List
 
