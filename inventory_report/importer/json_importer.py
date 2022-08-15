@@ -1,7 +1,9 @@
 # fazendo a importação da biblioteca csv nativa do pyton
 import json
+
 #  importando List nativo do python
 from typing import List
+
 # importando a classe Importer que é uma calsse abstrata
 # importando a sub classe abstrata Importer
 from inventory_report.importer.importer import Importer
