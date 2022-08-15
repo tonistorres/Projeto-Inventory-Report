@@ -12,7 +12,7 @@ def test_relatorio_produto():
         "01/01/2022",
         "30/01/2025",
         "Serie1234Xlblau",
-        "ali"
+        "ali",
     )
 
     str_product = product.__repr__()
