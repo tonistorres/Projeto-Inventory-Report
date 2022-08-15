@@ -1,7 +1,9 @@
 # importando a tipagem List e Dict
 from typing import List
+
 # importando biblioteca nativa xml
 from xml.etree import ElementTree as ET
+
 # importando a classe Importer que é uma calsse abstrata
 # importando a sub classe abstrata Importer
 from inventory_report.importer.importer import Importer
