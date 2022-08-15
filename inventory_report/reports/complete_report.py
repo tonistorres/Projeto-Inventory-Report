@@ -25,7 +25,7 @@ class CompleteReport(SimpleReport):
         convert_str = CompleteReport.dict_convert_str(dict_product)
 
         return (
-            f"{result_report_simple}"
+            f"{result_report_simple}\n"
             f"Produtos estocados por empresa:\n"
             f"{convert_str}"
         )
@@ -41,39 +41,39 @@ class CompleteReport(SimpleReport):
         return items
 
 
-# dict_cadeira = [
-#     {
-#         "id": 1,
-#         "nome_do_produto": "CADEIRA",
-#         "nome_da_empresa": "Forces of Nature",
-#         "data_de_fabricacao": "2022-04-04",
-#         "data_de_validade": "2023-02-09",
-#         "numero_de_serie": "FR48",
-#         "instrucoes_de_armazenamento": "Conservar em local fresco",
-#     },
+dict_cadeira = [
+    {
+        "id": 1,
+        "nome_do_produto": "CADEIRA",
+        "nome_da_empresa": "Forces of Nature",
+        "data_de_fabricacao": "2022-04-04",
+        "data_de_validade": "2023-02-09",
+        "numero_de_serie": "FR48",
+        "instrucoes_de_armazenamento": "Conservar em local fresco",
+    },
 
-#     {
-#         "id": 2,
-#         "nome_do_produto": "MESA COMPUTADOR",
-#         "nome_da_empresa": "Comercial Sao Lourencio",
-#         "data_de_fabricacao": "2021-04-04",
-#         "data_de_validade": "2023-02-08",
-#         "numero_de_serie": "FR48",
-#         "instrucoes_de_armazenamento": "Conservar em local fresco",
-#     },
+    {
+        "id": 2,
+        "nome_do_produto": "MESA COMPUTADOR",
+        "nome_da_empresa": "Comercial Sao Lourencio",
+        "data_de_fabricacao": "2021-04-04",
+        "data_de_validade": "2023-02-08",
+        "numero_de_serie": "FR48",
+        "instrucoes_de_armazenamento": "Conservar em local fresco",
+    },
 
-#     {
-#         "id": 3,
-#         "nome_do_produto": "CADEIRA COMPUTADOR",
-#         "nome_da_empresa": "Comercial Sao Lourencio",
-#         "data_de_fabricacao": "2021-04-04",
-#         "data_de_validade": "2023-02-08",
-#         "numero_de_serie": "FR48",
-#         "instrucoes_de_armazenamento": "Conservar em local fresco",
-#     }
-
-
-# ]
+    {
+        "id": 3,
+        "nome_do_produto": "CADEIRA COMPUTADOR",
+        "nome_da_empresa": "Comercial Sao Lourencio",
+        "data_de_fabricacao": "2021-04-04",
+        "data_de_validade": "2023-02-08",
+        "numero_de_serie": "FR48",
+        "instrucoes_de_armazenamento": "Conservar em local fresco",
+    }
 
 
-# print(CompleteReport.generate(dict_cadeira))
+]
+
+
+print(CompleteReport.generate(dict_cadeira))
