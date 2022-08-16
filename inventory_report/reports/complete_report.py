@@ -51,7 +51,6 @@ dict_cadeira = [
         "numero_de_serie": "FR48",
         "instrucoes_de_armazenamento": "Conservar em local fresco",
     },
-
     {
         "id": 2,
         "nome_do_produto": "MESA COMPUTADOR",
@@ -61,7 +60,6 @@ dict_cadeira = [
         "numero_de_serie": "FR48",
         "instrucoes_de_armazenamento": "Conservar em local fresco",
     },
-
     {
         "id": 3,
         "nome_do_produto": "CADEIRA COMPUTADOR",
@@ -70,9 +68,7 @@ dict_cadeira = [
         "data_de_validade": "2023-02-08",
         "numero_de_serie": "FR48",
         "instrucoes_de_armazenamento": "Conservar em local fresco",
-    }
-
-
+    },
 ]
 
 
